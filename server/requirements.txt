@@ -29,3 +29,4 @@ websockets==11.0.2
 sounddevice==0.4.6
 dataclasses_json==0.5.7
 onnxsim==0.4.28
+cryptography>=41.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
