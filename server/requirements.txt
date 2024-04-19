@@ -6,7 +6,7 @@
 uvicorn==0.21.1
 pyOpenSSL==23.1.1
 numpy==1.23.5
-torch==2.0.1
+torch==2.2.0
 torchaudio==2.0.2
 resampy==0.4.2
 python-socketio==5.8.0
