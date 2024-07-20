@@ -6,12 +6,12 @@
 uvicorn==0.21.1
 pyOpenSSL==23.1.1
 numpy==1.23.5
-torch==2.0.1
+torch==2.2.0
 torchaudio==2.0.2
 resampy==0.4.2
 python-socketio==5.8.0
-fastapi==0.95.1
-python-multipart==0.0.6
+fastapi==0.109.1
+python-multipart==0.0.7
 onnxruntime-gpu==1.13.1
 pyworld==0.3.3
 scipy==1.10.1
@@ -29,3 +29,14 @@ websockets==11.0.2
 sounddevice==0.4.6
 dataclasses_json==0.5.7
 onnxsim==0.4.28
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+onnx>=1.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
